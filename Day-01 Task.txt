@@ -1,0 +1,49 @@
+1) Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP
+> HTTP stands for Hypertext Transfer Protocol (Language of the Web) & it is used in client-server communication. 
+> By using HTTP user sends the request to the server & the server sends the response to the user.
+> HTTP/1.1 and HTTP/2 are two significant versions of the Hypertext Transfer Protocol (HTTP)
+
+HTTP1.1
+> Textual Format: HTTP/1.1 operates in a human-readable textual format.
+> Head-of-Line Blocking: HTTP/1.1 suffers from head-of-line blocking, leading to performance bottlenecks.
+> Resource Inlining: HTTP/1.1 relies on resource inlining for efficiency and to reduce the number of requests.
+> Data Compression: HTTP/1.1 performs data compression on its own.
+
+HTTP2
+> Binary Format: HTTP/2 uses a more efficient binary protocol for improved performance by reducing the overhead.
+> Multiplexing: TTP/2 supports multiplexing to enable concurrent requests and eliminate blocking thereby improves latency.
+> Server Push: HTTP/2 introduces server push to proactively push resources to clients, improving page load times by preloading essential resources.
+> Header Compression: HTTP/2 employs HPACK for header compression, leading to better optimization and reduced overhead.
+
+Conclusion
+> Both HTTP/1.1 and HTTP/2 serve the same purpose of facilitating communication between clients and servers.
+> HTTP/2 represents a significant evolution with its binary protocol, multiplexing, server push, and header compression. 
+> These features address the limitations of HTTP/1.1
+
+2) Write a blog about objects and its internal representation in Javascript.
+
+ Objects in JavaScript
+> JavaScript is a computer language that is very flexible and popular, and it uses objects a lot. 
+> Learning objects and how they are internally represented is essential to become proficient in JavaScript development.
+>  In JavaScript, objects are one of the most fundamental data structures. 
+> They are collections of key-value pairs, where keys are strings (or symbols) and values can be of any data type, including other objects, functions, arrays, and primitive values.
+> Objects in JavaScript are dynamic, meaning you can add, modify, or delete properties and methods at runtime.
+
+Ways to create objects in JavaScript:
+> Object Literals: Using curly braces {} to define key-value pairs.
+> Constructor Functions: Using functions as templates to create multiple instances of objects using the new keyword.
+> Object.create() method: Creating objects with a specified prototype.
+> Class syntax (ES6): Defining objects using the class keyword and constructor method.
+
+The internal representation in Javascript:
+> Hidden classes for object structures
+> Prototype chains for property lookup
+> Garbage collection for memory management
+> Optimizing JavaScript execution.
+
+const person = {
+firstName: 'Fahadh',
+lastName: 'Faasil',
+};
